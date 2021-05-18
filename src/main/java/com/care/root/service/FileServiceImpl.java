@@ -7,6 +7,7 @@ import java.util.Calendar;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.ui.Model;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.multipart.MultipartHttpServletRequest;
 
@@ -60,4 +61,19 @@ public class FileServiceImpl implements FileService {
 		mapper.saveDate(dto);
 	}
 
+	@Override
+	public void getShoesImage(Model model) {
+		model.addAttribute("list",mapper.getShoesImage() );
+		
+	}
+
 }
+
+
+
+
+
+
+
+
+

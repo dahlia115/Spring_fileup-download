@@ -1,5 +1,6 @@
 package com.care.root.service;
 
+import org.springframework.ui.Model;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.multipart.MultipartHttpServletRequest;
 
@@ -8,4 +9,5 @@ public interface FileService {
 	public void fileProcess(MultipartFile file);
 	
 	public void fileProcess(MultipartHttpServletRequest mul);
+	public void getShoesImage(Model model);
 }

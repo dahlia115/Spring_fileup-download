@@ -19,6 +19,8 @@
 		<input type="file" name="file"><br>
 		<input type="submit" value="업로드">
 	</form>	
+	<hr>
+	<a href="${contextPath }/views">파일보기</a>
 </body>
 </html>
 
