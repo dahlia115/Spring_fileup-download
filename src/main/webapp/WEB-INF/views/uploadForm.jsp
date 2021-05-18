@@ -13,7 +13,7 @@
 </head>
 <body>
 	<h1>파일 업로드</h1>
-	<form action="${contextPath }/upload" enctype="mutipart/form-data" method="post"><!-- 무조건 post방식으로 넘긴다 -->
+	<form action="${contextPath }/upload" enctype="multipart/form-data" method="post"><!-- 무조건 post방식으로 넘긴다 -->
 		<input type="text" name="id" placeholder="input id"><br>
 		<input type="text" name="name" placeholder="input name"><br>
 		<input type="file" name="file"><br>
