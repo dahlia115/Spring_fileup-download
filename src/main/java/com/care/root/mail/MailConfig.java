@@ -1,4 +1,4 @@
-package com.care.root.config;
+package com.care.root.mail;
 
 import java.util.Properties;
 
