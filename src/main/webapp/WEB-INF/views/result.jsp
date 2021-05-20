@@ -15,7 +15,7 @@
 		이름 : ${dto.name }<br>
 		이미지 : ${dto.imgName }<br>
 		<img  alt="이미지가 없습니다" width="100px" height="100px" 
-			src="${contextPath }/download?file=${dto.imgName}"><br>
+			src="${contextPath }/download?file=${dto.img Name}"><br>
 		<a href="${contextPath }/download?file=${dto.imgName}">
 			${dto.imgName}
 		</a>
